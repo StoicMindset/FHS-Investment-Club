@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/bulma.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://unpkg.com/htmx.org@1.8.4"></script>
+    <title>Young Investors - Resources</title>
+  </head>
+  <body>
+    <div
+      class="navbar"
+      id="navbar"
+      hx-get="navbar.html"
+      hx-trigger="load"
+      hx-swap="outerHTML"
+    ></div>
+    <div class="container">
+      <div class="section">
+        <p class="title has-text-white">Resources</p>
+      </div>
+    </div>
+  </body>
+</html>
