@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Caedmon Holland",
+    "title": "President",
+    "pick": "GM"
+  },
+  {
+    "name": "Jason Johnson",
+    "title": "Vice President",
+    "baseline": 200
+  },
+  {
+    "name": "Allen Gonzalez-Mesa",
+    "title": "Member"
+  },
+  {
+    "name": "Cooper Grisso",
+    "title": "Member"
+  },
+  {
+    "name": "Min Lee",
+    "title": "Member"
+  },
+  {
+    "name": "Chi Chi Luo",
+    "title": "Member"
+  },
+  {
+    "name": "Lin Lin Luo",
+    "title": "Member"
+  },
+  {
+    "name": "Jacob McCarthy",
+    "title": "Member"
+  },
+  {
+    "name": "Owen McCarthy",
+    "title": "Member"
+  },
+  {
+    "name": "Hugo Medina",
+    "title": "Member",
+    "pick": "LUV"
+  },
+  {
+    "name": "Knox Mullin",
+    "title": "Member"
+  },
+  {
+    "name": "Nathan Zhou",
+    "title": "Member"
+  },
+    {
+    "name": "Wyatt Doyle",
+    "title": "Member"
+  },
+  {
+    "name": "Jess Hartland",
+    "title": "Member"
+  },
+  {
+    "name": "Kripa Sarkar",
+    "title": "Member"
+  },
+  {
+    "name": "Pedrom Stutzenberger",
+    "title": "Member"
+  },
+  {
+    "name": "Dawson Zelnik",
+    "title": "Member",
+    "pick": "NOW"
+  }
+]
