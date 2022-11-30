@@ -1,73 +1,90 @@
 [
   {
-    "name": "Caedmon Holland",
+    "firstName": "Caedmon",
+    "lastName": "Holland",
     "title": "President",
     "pick": "GM"
   },
   {
-    "name": "Jason Johnson",
+    "firstName": "Jason",
+    "lastName": "Johnson",
     "title": "Vice President",
     "baseline": 200
   },
   {
-    "name": "Allen Gonzalez-Mesa",
+    "firstName": "Allen",
+    "lastName": "Gonzalez-Mesa",
     "title": "Member"
   },
   {
-    "name": "Cooper Grisso",
+    "firstName": "Cooper",
+    "lastName": "Grisso",
     "title": "Member"
   },
   {
-    "name": "Min Lee",
+    "firstName": "Min",
+    "lastName": "Lee",
     "title": "Member"
   },
   {
-    "name": "Chi Chi Luo",
+    "firstName": "Chi Chi",
+    "lastName": "Luo",
     "title": "Member"
   },
   {
-    "name": "Lin Lin Luo",
+    "firstName": "Lin Lin",
+    "lastName": "Luo",
     "title": "Member"
   },
   {
-    "name": "Jacob McCarthy",
+    "firstName": "Jacob",
+    "lastName": "McCarthy",
     "title": "Member"
   },
   {
-    "name": "Owen McCarthy",
+    "firstName": "Owen",
+    "lastName": "McCarthy",
     "title": "Member"
   },
   {
-    "name": "Hugo Medina",
+    "firstName": "Hugo",
+    "lastName": "Medina",
     "title": "Member",
     "pick": "LUV"
   },
   {
-    "name": "Knox Mullin",
+    "firstName": "Knox",
+    "lastName": "Mullin",
     "title": "Member"
   },
   {
-    "name": "Nathan Zhou",
-    "title": "Member"
-  },
-    {
-    "name": "Wyatt Doyle",
+    "firstName": "Nathan",
+    "lastName": "Zhou",
     "title": "Member"
   },
   {
-    "name": "Jess Hartland",
+    "firstName": "Wyatt",
+    "lastName": "Doyle",
     "title": "Member"
   },
   {
-    "name": "Kripa Sarkar",
+    "firstName": "Jess",
+    "lastName": "Hartland",
     "title": "Member"
   },
   {
-    "name": "Pedrom Stutzenberger",
+    "firstName": "Kripa",
+    "lastName": "Sarkar",
     "title": "Member"
   },
   {
-    "name": "Dawson Zelnik",
+    "firstName": "Pedrom",
+    "lastName": "Stutzenberger",
+    "title": "Member"
+  },
+  {
+    "firstName": "Dawson",
+    "lastName": "Zelnik",
     "title": "Member",
     "pick": "NOW"
   }

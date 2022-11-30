@@ -63,10 +63,9 @@ const Home = () => {
                     {member.pick ? (
                       <div>
                         <p className="subtitle is-6">
-                          {member.firstName}'s Pick
+                          {member.firstName}'s Pick: <b>{member.pick}</b>
                         </p>
                         <hr />
-                        <b>{member.pick}</b>
                         <p>
                           Previous Close: {parseFloat(member.previousClose)}
                         </p>
