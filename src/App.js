@@ -4,6 +4,7 @@ import './App.css';
 
 import Nav from './components/Nav';
 import Home from './pages/Home';
+import Resources from './pages/Resources';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/resources" element={<Resources />}></Route>
+     
       </Routes>
     </Router>
   );
