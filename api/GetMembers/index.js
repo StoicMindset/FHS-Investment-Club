@@ -13,8 +13,6 @@ module.exports = async function (context, req) {
         );
         const data = await response.json();
 
-        console.log(data);
-
         member.previousClose = data['Global Quote']['08. previous close'];
       }
     }

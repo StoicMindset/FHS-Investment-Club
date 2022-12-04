@@ -29,7 +29,7 @@ const Resources = () => {
               resources please email&nbsp;
               <a
                 href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfqcLdlDnNVjTxxGJwQLmTlXSNkBQlgdwdtbTBvFNDTMvjXZBZrkBKhxFPHfSkhHLxpwxV"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 franklininvestmentclub@gmail.com
               </a>
@@ -43,17 +43,17 @@ const Resources = () => {
             </p>
             <ul>
               <li>
-                <a href="https://yis.org/" target="_blank">
+                <a href="https://yis.org/" target="_blank" rel="noreferrer">
                   Young Investors' Society Website
                 </a>
               </li>
               <li>
-                <a href="https://yis.org/yiscourse/dashboard " target="_blank">
+                <a href="https://yis.org/yiscourse/dashboard " target="_blank" rel="noreferrer">
                   MyYIS
                 </a>
               </li>
               <li>
-                <a href="hhttps://yis.org/yiscourse/register " target="_blank">
+                <a href="hhttps://yis.org/yiscourse/register " target="_blank" rel="noreferrer">
                   Register for MyYIS
                 </a>
               </li>
@@ -67,7 +67,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://yis.org/wp-content/uploads/2020/10/Walt-Disney-Investment-Report-2020.10.16.docx"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   YIS Stock Pitch Report Template
                 </a>
@@ -75,7 +75,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://docs.google.com/spreadsheets/d/1WUmt6w0RsuRheukox_QiWk4rGpugXat-NHVLNUZDnqg/edit#gid=2115524601"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   YIS Sample Discounted Cash Flow
                 </a>
@@ -83,7 +83,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://investmentclub.nd.edu/assets/348428/stock_pitch_workshop.pdf"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Notre Dame Stock Pitch Workshop
                 </a>
@@ -91,7 +91,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://investmentclub.nd.edu/assets/487715/sample_dcf_apple_.xlsx "
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Notre Dame Sample Discounted Cash Flow
                 </a>
@@ -99,7 +99,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://drive.google.com/file/d/1l75JL6P5ZyUfex9IDA9O-FQRrqN9mJN8/view"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Tiger Investments (Princeton University) Guide to Valuation
                 </a>
@@ -118,20 +118,20 @@ const Resources = () => {
               <li>
                 <a
                   href="https://www.fidelity.com/go/youth-account/overview  "
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Fidelity
                 </a>
               </li>
               <li>
-                <a href="join.robinhood.com/thomash1906" target="_blank">
+                <a href="join.robinhood.com/thomash1906" target="_blank" rel="noreferrer">
                   Robinhood
                 </a>
               </li>
               <li>
                 <a
                   href="https://www.stockpile.com/youre-invited "
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Stockpile
                 </a>
@@ -148,7 +148,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://marketwatch.createsend1.com/t/n/j-l-cd7429436f8311eda44aece57ee4dc54-l-t-r-l/ "
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   FHS Investment Club Stock Market Game
                 </a>
@@ -163,14 +163,14 @@ const Resources = () => {
             <ul>
               {" "}
               <li>
-                <a href="https://www.morningstar.com/" target="_blank">
+                <a href="https://www.morningstar.com/" target="_blank" rel="noreferrer">
                   Morningstar
                 </a>
               </li>
               <li>
                 <a
                   href="https://investors.valueline.com/Users/Account/barcode?bcode=2&lp=/secure/research?barcode=2&o=research"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Value Line (WCPL Link)
                 </a>
@@ -178,24 +178,24 @@ const Resources = () => {
                 Card to log in.
               </li>
               <li>
-                <a href="https://seekingalpha.com " target="_blank">
+                <a href="https://seekingalpha.com " target="_blank" rel="noreferrer">
                   Seeking Alpha
                 </a>
               </li>
               <li>
-                <a href=" https://www.cnn.com/markets" target="_blank">
+                <a href=" https://www.cnn.com/markets" target="_blank" rel="noreferrer">
                   CNN Business
                 </a>
               </li>
               <li>
-                <a href="https://finance.yahoo.com/ " target="_blank">
+                <a href="https://finance.yahoo.com/ " target="_blank" rel="noreferrer">
                   Yahoo Finance
                 </a>
               </li>
               <li>
                 <a
                   href="https://www.google.com/finance/?hl=en "
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Google Finance
                 </a>
@@ -203,7 +203,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://digital.fidelity.com/prgw/digital/research/src"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Fidelity Stock Research
                 </a>
@@ -211,7 +211,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://bi.gale.com/essentials/?u=tel_p_willcpl&sid=geolinks "
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Business Insights: Essentials
                 </a>
@@ -220,7 +220,7 @@ const Resources = () => {
                 <p>
                   <a
                     href="https://wilco.bywatersolutions.com/cgi-bin/koha/opac-detail.pl?biblionumber=70411&query_desc=kw%2Cwrdl%3A%20the%20outlook"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     The Outlook
                   </a>{" "}
@@ -234,7 +234,7 @@ const Resources = () => {
                   <li>
                     <a
                       href="https://www.sec.gov/edgar/search/#/category=custom&forms=4"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       Form 4 (insider trading)
                     </a>
@@ -242,7 +242,7 @@ const Resources = () => {
                   <li>
                     <a
                       href="https://www.sec.gov/edgar/search/#/category=custom&forms=13F-HR%252C13F-NT%252C13FCONP "
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       Form 13F (hedge fund portfolios)
                     </a>
@@ -260,23 +260,23 @@ const Resources = () => {
               <li>
                 <a
                   href="https://www.morningstar.com/products/magazine "
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Morningstar Magazine
                 </a>
               </li>
               <li>
-                <a href=" https://hbr.org/ " target="_blank">
+                <a href=" https://hbr.org/ " target="_blank" rel="noreferrer">
                   Harvard Business Review
                 </a>
               </li>
               <li>
-                <a href="https://www.thedailyupside.com/ " target="_blank">
+                <a href="https://www.thedailyupside.com/ " target="_blank" rel="noreferrer">
                   The Daily Upside
                 </a>
               </li>
               <li>
-                <a href="https://www.cnbc.com/ " target="_blank">
+                <a href="https://www.cnbc.com/ " target="_blank" rel="noreferrer">
                   CNBC
                 </a>
               </li>
@@ -292,7 +292,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661/ref=sr_1_1?crid=F6XE47DRBPJ2&keywords=the+intelligent+investor&qid=1670039342&sprefix=the+intel%2Caps%2C94&sr=8-1 "
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <i>The Intelligent Investor</i>
                 </a>
@@ -301,7 +301,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://www.amazon.com/Security-Analysis-Principles-Benjamin-Graham/dp/007141228X/ref=sr_1_1?crid=2327TMVVI115H&keywords=security+analysis+2nd+edition&qid=1670039404&sprefix=security+analysis+2nd+edition%2Caps%2C88&sr=8-1 "
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <i>Security Analysis (2nd Edition)</i>
                 </a>
@@ -310,7 +310,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://www.amazon.com/One-Up-Wall-Street-Already/dp/0743200403/ref=sr_1_1?keywords=one+up+on+wall+street&qid=1670039494&sprefix=one+up+%2Caps%2C89&sr=8-1"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <i>One Up On Wall Street</i>
                 </a>
@@ -319,7 +319,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://www.amazon.com/Beating-Street-Peter-Lynch/dp/0671891634/ref=sr_1_1?crid=3U5PFGKA9NULX&keywords=beat+the+street+by+peter+lynch&qid=1670039721&sprefix=beat+the+street+%2Caps%2C97&sr=8-1 "
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <i>Beat The Street</i>
                 </a>
@@ -328,7 +328,7 @@ const Resources = () => {
               <li>
                 <a
                   href="https://www.amazon.com/Random-Walk-Down-Wall-Street/dp/0393358380/ref=sr_1_1?keywords=a+random+walk+down+wall+street&qid=1670039879&sprefix=a+rando%2Caps%2C89&sr=8-1 "
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <i>A Random Walk Down Wall Street</i>
                 </a>
@@ -342,14 +342,14 @@ const Resources = () => {
             </p>
             <ul>
               <li>
-                <a href=" https://hiddenvaluegems.com/ " target="_blank">
+                <a href=" https://hiddenvaluegems.com/ " target="_blank" rel="noreferrer">
                   Hidden Value Gems
                 </a>
               </li>
               <li>
                 <a
                   href="https://aswathdamodaran.blogspot.com/ "
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Musings On Markets
                 </a>
@@ -364,12 +364,12 @@ const Resources = () => {
             </p>
             <ul>
               <li>
-                <a href=" https://www.npr.org/sections/money/ " target="_blank">
+                <a href=" https://www.npr.org/sections/money/ " target="_blank" rel="noreferrer">
                   Planet Money
                 </a>
               </li>
               <li>
-                <a href="https://moneyguy.com/show/ " target="_blank">
+                <a href="https://moneyguy.com/show/ " target="_blank" rel="noreferrer">
                   The Money Guy Show
                 </a>
               </li>
