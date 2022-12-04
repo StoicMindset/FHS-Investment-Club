@@ -3,13 +3,13 @@
     "firstName": "Caedmon",
     "lastName": "Holland",
     "title": "President",
-    "pick": "GM"
+    "pick": "VWAGY"
   },
   {
     "firstName": "Jason",
     "lastName": "Johnson",
     "title": "Vice President",
-    "baseline": 200
+    "pick": "DIS"
   },
   {
     "firstName": "Allen",
@@ -71,7 +71,8 @@
   {
     "firstName": "Jess",
     "lastName": "Hartland",
-    "title": "Member"
+    "title": "Member",
+    "pick": "COST"
   },
   {
     "firstName": "Kripa",
@@ -81,7 +82,8 @@
   {
     "firstName": "Pedrom",
     "lastName": "Stutzenberger",
-    "title": "Member"
+    "title": "Member",
+    "pick": "SWBI"
   },
   {
     "firstName": "Dawson",
