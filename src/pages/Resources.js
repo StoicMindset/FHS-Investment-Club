@@ -374,6 +374,32 @@ const Resources = () => {
                 </a>
               </li>
             </ul>
+              <h2>Education</h2>
+            <p>
+              These educational resources teach Value Investing. Holland Finance is the YouTube channel of Club President Caedmon Holland. The slideshows were presented at previous club meetings.
+            </p>
+            <ul>
+              <li>
+                <a href="https://www.globalsecuritiesinstitute.com/young-investors-society-students" target="_blank" rel="noreferrer">
+                 Global Securities Institute
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@hollandfinance8509" target="_blank" rel="noreferrer">
+                  Holland Finance
+                </a>
+              </li>
+                <li>
+                <a href="https://docs.google.com/presentation/d/1pQJL8FesvNIxvaeB3D95UNKbIGfTdFvSf5apPFWRPzM/edit?usp=sharing" target="_blank" rel="noreferrer">
+                  Intro to Value Investing
+                </a>
+              </li>
+                <li>
+                <a href="https://docs.google.com/presentation/d/1xTBEIbuFELLIKN5nvZPPmSShzaI8Vb_0FEt-MVLh7Xo/edit?usp=sharing" target="_blank" rel="noreferrer">
+                  Investing: Start to Finish
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
