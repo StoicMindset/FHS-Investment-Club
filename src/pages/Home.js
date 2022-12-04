@@ -30,14 +30,14 @@ const Home = () => {
           <div class="container has-text-centered">
             <h1 class="title">FHS Investment Club</h1>
             <p class="subtitle has-text-white">
-              The Franklin High School Investment Club
+              A Chapter of Young Investors' Society
             </p>
           </div>
         </div>
       </section>
       <div class="box">
         <div class="container has-text-centered">
-          <span>The club meets every Monday from 3 - 4 PM in room 706</span>
+          <span>Meetings every Monday from 3 - 4 PM in room 706.</span>
         </div>
       </div>
       <div className="container">
