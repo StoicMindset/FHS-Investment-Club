@@ -3,7 +3,7 @@
     "firstName": "Caedmon",
     "lastName": "Holland",
     "title": "President",
-    "pick": "VLKAF"
+    "pick": "GM"
   },
   {
     "firstName": "Jason",
@@ -66,7 +66,8 @@
   {
     "firstName": "Wyatt",
     "lastName": "Doyle",
-    "title": "Member"
+    "title": "Member",
+    "pick": "LUV"
   },
   {
     "firstName": "Jess",
