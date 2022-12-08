@@ -253,7 +253,7 @@ const Resources = () => {
                       href="https://www.sec.gov/edgar/search/#"
                       target="_blank" rel="noreferrer"
                     >
-                      SEC Forms
+                      SEC Filings
                     </a> -</p>
                 <ul>
                   <li>
