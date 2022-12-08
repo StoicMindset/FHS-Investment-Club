@@ -59,6 +59,18 @@ const Resources = () => {
               </li>
             </ul>
             <h2>Stock Pitching</h2>
+             <p>
+              Use these resources to help create a pitch deck and a discounted
+              cash flow model.
+            </p>
+              <li>
+                <a
+                  href="https://yis.org/wp-content/uploads/2020/10/Walt-Disney-Investment-Report-2020.10.16.docx"
+                  target="_blank" rel="noreferrer"
+                >
+                  YIS Stock Pitch Report Template
+                </a>
+              </li>
             <p>
               Use these resources to help create a pitch deck and a discounted
               cash flow model.
@@ -66,10 +78,18 @@ const Resources = () => {
             <ul>
               <li>
                 <a
-                  href="https://yis.org/wp-content/uploads/2020/10/Walt-Disney-Investment-Report-2020.10.16.docx"
+                  href="https://yis.org/stock-pitch-tutorial-videos/"
                   target="_blank" rel="noreferrer"
                 >
-                  YIS Stock Pitch Report Template
+                  YIS Stock Pitch Tutorial Videos
+                </a>
+              </li>
+               <li>
+                <a
+                  href="https://www.youtube.com/watch?v=si0p0nfGjdw"
+                  target="_blank" rel="noreferrer"
+                >
+                  2022 YIS Global Stock Pitch Showcase
                 </a>
               </li>
               <li>
@@ -379,6 +399,16 @@ const Resources = () => {
               These educational resources teach Value Investing. Holland Finance is the YouTube channel of Club President Caedmon Holland. The slideshows were presented at previous club meetings.
             </p>
             <ul>
+              <li>
+                 <a href="http://yis.org/wp-content/uploads/2016/10/Stock-Investing-101-eBook.pdf" target="_blank" rel="noreferrer">
+                 YIS Stock Investing 101 eBook
+                </a>
+              </li>
+              <li>
+                 <a href="https://yis.org/videos/" target="_blank" rel="noreferrer">
+                 YIS Videos
+                </a>
+              </li>
               <li>
                 <a href="https://www.globalsecuritiesinstitute.com/young-investors-society-students" target="_blank" rel="noreferrer">
                  Global Securities Institute
