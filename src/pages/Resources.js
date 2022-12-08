@@ -70,11 +70,7 @@ const Resources = () => {
                 >
                   YIS Stock Pitch Report Template
                 </a>
-              </li>
-            <p>
-              Use these resources to help create a pitch deck and a discounted
-              cash flow model.
-            </p>
+            </li>
             <ul>
               <li>
                 <a
