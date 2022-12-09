@@ -63,6 +63,7 @@ const Resources = () => {
               Use these resources to help create a pitch deck and a discounted
               cash flow model.
             </p>
+            <ul>
               <li>
                 <a
                   href="https://yis.org/wp-content/uploads/2020/10/Walt-Disney-Investment-Report-2020.10.16.docx"
@@ -70,7 +71,8 @@ const Resources = () => {
                 >
                   YIS Stock Pitch Report Template
                 </a>
-            </li>
+              </li>
+            </ul>
             <ul>
               <li>
                 <a
