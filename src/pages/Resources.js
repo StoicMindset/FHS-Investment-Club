@@ -72,8 +72,6 @@ const Resources = () => {
                   YIS Stock Pitch Report Template
                 </a>
               </li>
-            </ul>
-            <ul>
               <li>
                 <a
                   href="https://yis.org/stock-pitch-tutorial-videos/"
@@ -135,7 +133,7 @@ const Resources = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.fidelity.com/go/youth-account/overview  "
+                  href="https://www.fidelity.com/go/youth-account/overview"
                   target="_blank" rel="noreferrer"
                 >
                   Fidelity
@@ -148,7 +146,7 @@ const Resources = () => {
               </li>
               <li>
                 <a
-                  href="https://www.stockpile.com/youre-invited "
+                  href="https://www.stockpile.com/youre-invited"
                   target="_blank" rel="noreferrer"
                 >
                   Stockpile
@@ -165,7 +163,7 @@ const Resources = () => {
             <ul>
               <li>
                 <a
-                  href="https://marketwatch.createsend1.com/t/n/j-l-cd7429436f8311eda44aece57ee4dc54-l-t-r-l/ "
+                  href="https://marketwatch.createsend1.com/t/n/j-l-cd7429436f8311eda44aece57ee4dc54-l-t-r-l/"
                   target="_blank" rel="noreferrer"
                 >
                   FHS Investment Club Stock Market Game
