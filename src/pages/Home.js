@@ -46,7 +46,9 @@ const Home = () => {
             <tr>
               <th>Name</th>
               <th>Pick</th>
-              <th>Previous Close</th>
+              <th>Current</th>
+              <th>High</th>
+              <th>Low</th>
               <th>Percentage Change</th>
             </tr>
           </thead>
@@ -108,13 +110,17 @@ const Home = () => {
           </td>
           <td>{member.pick}</td>
           <td>{member.quote.c.toFixed(2)}</td>
-          <td
-            className={
-              member.quote.dp > 0 ? 'has-text-primary' : 'has-text-danger'
-            }
-          >
-            <b>{member.quote.dp.toFixed(2)}%</b>
-          </td>
+          <td>{member.quote.h.toFixed(2)}</td>
+          <td>{member.quote.l.toFixed(2)}</td>
+          {member.quote.dp > 0 ? (
+            <td className="has-text-primary">
+              <b>+{member.quote.dp.toFixed(2)}%</b>
+            </td>
+          ) : (
+            <td className="has-text-danger">
+              <b>{member.quote.dp.toFixed(2)}%</b>
+            </td>
+          )}
         </tr>
       );
     } else {
@@ -124,6 +130,8 @@ const Home = () => {
             {member.firstName} {member.lastName}{' '}
             {member.title ? ` - ${member.title}` : ''}
           </td>
+          <td></td>
+          <td></td>
           <td></td>
           <td></td>
           <td></td>
