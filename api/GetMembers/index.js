@@ -6,7 +6,7 @@ module.exports = async function (context, req) {
   const members = await memberService.getMembers();
 
   // if the current time is less than 2 minutes from the lastUpdated time, return the members
-  if (Math.floor(new Date().getTime() / 1000) - members[0].lastUpdated < 120) {
+  if (Math.floor(new Date().getTime() / 1000) - members[0].lastUpdated < 70) {
     context.res = {
       // status: 200, /* Defaults to 200 */
       body: members,
