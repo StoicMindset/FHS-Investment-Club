@@ -13,7 +13,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/resources" element={<Resources />}></Route>
-     
       </Routes>
     </Router>
   );

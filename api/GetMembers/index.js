@@ -1,31 +1,36 @@
-var members = require('../data/members.json');
-var fetch = require('node-fetch');
+var memberService = require('../services/memberService');
+var finnHubService = require('../services/finnHubService');
 
 module.exports = async function (context, req) {
-  // loop over each member and ask polygon API for their pick
-  try {
-    for (const member of members) {
-      if (member.pick) {
-        console.log(member.pick);
-        // get the last two days worth of data for this stock pick
-        const response = await fetch(
-          `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${member.pick}&interval=5min&apikey=${process.env.API_KEY}`
-        );
-        const data = await response.json();
+  // get the list of members from the database
+  const members = await memberService.getMembers();
 
-        let obj = data['Time Series (5min)'];
-
-        if (obj) {
-          member.intraDay = Object.keys(obj).map((k) => obj[k]);
-          member.previousClose = member.intraDay[0]['4. close'];
-        }
-      }
-    }
-  } catch (e) {
-    console.log(e);
+  // if the current time is less than 2 minutes from the lastUpdated time, return the members
+  if (Math.floor(new Date().getTime() / 1000) - members[0].lastUpdated < 120) {
+    context.res = {
+      // status: 200, /* Defaults to 200 */
+      body: members,
+    };
   }
-  context.res = {
-    // status: 200, /* Defaults to 200 */
-    body: members,
-  };
+
+  // otherwise, update the member's quote from the API
+  else {
+    try {
+      for (const member of members) {
+        if (member.pick) {
+          let quoteData = await finnHubService.getQuote(member.pick);
+          member.quote = quoteData;
+        }
+        // update the member's last updated time with a unix timestamp
+        member.lastUpdated = Math.floor(new Date().getTime() / 1000);
+        await memberService.updateMember(member);
+      }
+    } catch (e) {
+      console.log(e);
+    }
+    context.res = {
+      // status: 200, /* Defaults to 200 */
+      body: members,
+    };
+  }
 };
