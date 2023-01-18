@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Home = () => {
   const [members, setMembers] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     getMembers();
@@ -12,6 +13,7 @@ const Home = () => {
     const json = await result.json();
 
     setMembers(json);
+    setLoading(false);
   }
 
   return (
@@ -41,61 +43,34 @@ const Home = () => {
         </div>
       </div>
       <div className="container">
-        <table className="table is-fullwidth">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Pick</th>
-              <th>Current</th>
-              <th>High</th>
-              <th>Low</th>
-              <th>Percentage Change</th>
-            </tr>
-          </thead>
-          <tbody>{members.map((member) => getMemberRow(member))}</tbody>
-        </table>
-
-        {/* <div className="columns is-multiline">
-          {members.map((member) => (
-            <div className="column is-4">
-              <div className="card">
-                <div className="card-image">
-                  <figure className="image is-4by-3">
-                    <img src="" alt="" />
-                  </figure>
-                </div>
-                <div className="card-content">
-                  <div className="media">
-                    <div className="media-content">
-                      <p className="title is-4">
-                        {member.firstName} {member.lastName}
-                      </p>
-                      <p className="subtitle is-5">{member.title}</p>
-                    </div>
-                  </div>
-                  <div className="content">
-                    {member.pick ? (
-                      <div>
-                        <p className="subtitle is-6">
-                          {member.firstName}'s Pick: <b>{member.pick}</b>
-                        </p>
-                        <hr />
-                        <p>
-                          Previous Close: {parseFloat(member.previousClose)}
-                        </p>
-                      </div>
-                    ) : (
-                      <div>
-                        <i>No Pick</i>
-                        <span> </span>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              </div>
+        {loading ? (
+          <div className="loading">
+            <div className="has-text-centered">
+              <div className="title">Loading member data...</div>
+              <progress
+                className="progress is-small"
+                max="100"
+                style={{ margin: 'auto', width: '50%' }}
+              >
+                50%
+              </progress>
             </div>
-          ))}
-        </div> */}
+          </div>
+        ) : (
+          <table className="table is-fullwidth">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Pick</th>
+                <th>Current</th>
+                <th>High</th>
+                <th>Low</th>
+                <th>Percentage Change</th>
+              </tr>
+            </thead>
+            <tbody>{members.map((member) => getMemberRow(member))}</tbody>
+          </table>
+        )}
       </div>
     </div>
   );
