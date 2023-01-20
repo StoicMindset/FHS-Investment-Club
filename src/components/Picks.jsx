@@ -19,11 +19,11 @@ const Picks = () => {
   return (
     <div>
       {loading ? (
-        <div class="loading">
-          <div class="has-text-centered">
-            <div class="title">Loading member data...</div>
+        <div className="loading">
+          <div className="has-text-centered">
+            <div className="title">Loading member data...</div>
             <progress
-              class="progress is-small"
+              className="progress is-small"
               max="100"
               style={{ margin: 'auto', width: '50%' }}
             >
@@ -32,19 +32,21 @@ const Picks = () => {
           </div>
         </div>
       ) : (
-        <table class="table is-fullwidth is-scrollable">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Pick</th>
-              <th>Current</th>
-              <th>High</th>
-              <th>Low</th>
-              <th>Percentage Change</th>
-            </tr>
-          </thead>
-          <tbody>{members.map((member) => getMemberRow(member))}</tbody>
-        </table>
+        <div className="table-container">
+          <table className="table is-fullwidth">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Pick</th>
+                <th>Current</th>
+                <th>High</th>
+                <th>Low</th>
+                <th>Percentage Change</th>
+              </tr>
+            </thead>
+            <tbody>{members.map((member) => getMemberRow(member))}</tbody>
+          </table>
+        </div>
       )}
     </div>
   );
