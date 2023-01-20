@@ -1,0 +1,19 @@
+---
+import '../site.sass';
+import Nav from '../components/Nav.jsx';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <title>FHS Investment Club</title>
+  </head>
+  <body>
+    <Nav client:load />
+    <slot />
+  </body>
+</html>

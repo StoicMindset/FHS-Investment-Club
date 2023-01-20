@@ -1,45 +1,24 @@
 {
-  "name": "src",
-  "version": "0.1.0",
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
   "private": true,
-  "dependencies": {
-    "@azure/static-web-apps-cli": "^1.0.3",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "bulma": "^0.9.4",
-    "node-sass": "^7.0.3",
-    "react": "^18.2.0",
-    "react-chartjs-2": "^5.0.1",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.3",
-    "react-scripts": "5.0.1",
-    "request": "^2.88.2",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "swa": "swa start http://localhost:3000 --run 'npm start' --api-location ./api",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "swa": "swa start http://localhost:3000 --run 'npm run dev' --api-location ./api"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@astrojs/preact": "^1.2.0",
+    "astro": "^1.9.0",
+    "preact": "^10.11.3"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@azure/static-web-apps-cli": "^1.0.5",
+    "bulma": "^0.9.4",
+    "sass": "^1.57.1"
   }
 }

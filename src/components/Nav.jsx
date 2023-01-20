@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState } from 'preact/hooks';
 
 const Nav = () => {
   const [isActive, setActive] = useState(false);
@@ -29,18 +28,18 @@ const Nav = () => {
         </div>
         <div className={`navbar-menu ${isActive ? 'is-active' : null}`}>
           <div className="navbar-start">
-            <Link to="/" className="navbar-item">
+            <a href="/" className="navbar-item">
               Home
-            </Link>
-            <Link to="/pitches" className="navbar-item">
+            </a>
+            <a href="/pitches" className="navbar-item">
               Pitches
-            </Link>
-            <Link to="/resources" className="navbar-item">
+            </a>
+            <a href="/resources" className="navbar-item">
               Resources
-            </Link>
-            <Link to="/about" className="navbar-item">
+            </a>
+            <a href="/about" className="navbar-item">
               About
-            </Link>
+            </a>
           </div>
         </div>
       </div>

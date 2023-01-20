@@ -1,0 +1,93 @@
+import { useEffect, useState } from 'preact/hooks';
+
+const Picks = () => {
+  const [members, setMembers] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    getMembers();
+  }, []);
+
+  async function getMembers() {
+    const response = await fetch('/api/members');
+    const data = await response.json();
+
+    setMembers(data);
+    setLoading(false);
+  }
+
+  return (
+    <div>
+      {loading ? (
+        <div class="loading">
+          <div class="has-text-centered">
+            <div class="title">Loading member data...</div>
+            <progress
+              class="progress is-small"
+              max="100"
+              style={{ margin: 'auto', width: '50%' }}
+            >
+              50%
+            </progress>
+          </div>
+        </div>
+      ) : (
+        <table class="table is-fullwidth is-scrollable">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Pick</th>
+              <th>Current</th>
+              <th>High</th>
+              <th>Low</th>
+              <th>Percentage Change</th>
+            </tr>
+          </thead>
+          <tbody>{members.map((member) => getMemberRow(member))}</tbody>
+        </table>
+      )}
+    </div>
+  );
+
+  function getMemberRow(member) {
+    if (member.pick) {
+      return (
+        <tr>
+          <td>
+            {member.firstName} {member.lastName}{' '}
+            {member.title ? ` - ${member.title}` : ''}
+          </td>
+          <td>{member.pick}</td>
+          <td>{member.quote.c.toFixed(2)}</td>
+          <td>{member.quote.h.toFixed(2)}</td>
+          <td>{member.quote.l.toFixed(2)}</td>
+          {member.quote.dp > 0 ? (
+            <td className="has-text-primary">
+              <b>+{member.quote.dp.toFixed(2)}%</b>
+            </td>
+          ) : (
+            <td className="has-text-danger">
+              <b>{member.quote.dp.toFixed(2)}%</b>
+            </td>
+          )}
+        </tr>
+      );
+    } else {
+      return (
+        <tr>
+          <td>
+            {member.firstName} {member.lastName}{' '}
+            {member.title ? ` - ${member.title}` : ''}
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      );
+    }
+  }
+};
+
+export default Picks;
