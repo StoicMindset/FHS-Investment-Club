@@ -31,8 +31,8 @@ const Nav = () => {
             <a href="/" className="navbar-item">
               Home
             </a>
-            <a href="/pitches" className="navbar-item">
-              Pitches
+            <a href="/portfolio" className="navbar-item">
+              Portfolio
             </a>
             <a href="/resources" className="navbar-item">
               Resources
