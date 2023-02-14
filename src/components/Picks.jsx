@@ -1,18 +1,18 @@
 import { useEffect, useState } from 'preact/hooks';
 
 const Picks = () => {
-  const [members, setMembers] = useState([]);
+  const [picks, setPicks] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    getMembers();
+    getPicks();
   }, []);
 
-  async function getMembers() {
-    const response = await fetch('/api/members');
+  async function getPicks() {
+    const response = await fetch('/api/picks');
     const data = await response.json();
 
-    setMembers(data);
+    setPicks(data);
     setLoading(false);
   }
 
@@ -44,7 +44,7 @@ const Picks = () => {
                 <th>Percentage Change</th>
               </tr>
             </thead>
-            <tbody>{members.map((member) => getMemberRow(member))}</tbody>
+            <tbody>{picks.map((member) => getMemberRow(member))}</tbody>
           </table>
         </div>
       )}
